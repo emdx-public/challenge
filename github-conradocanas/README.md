@@ -2,15 +2,31 @@
 
 #### LIVE DEMO : https://conradocanas.github.io/emdxchallenge/
 
-##### TECHOCNOLOGIES USED
+EMDX Front End technical test This project is based on Vue with Axios to connect an API and WebSockets to target cryptocurrencies prices on real time.
 
-Vuejs, Vuex, Vuetify, WebSockets & APIRest
+#### CHALLENGE
+✅ BTC Converter view
+###### The BTC view will contain a table with all the available exchanges with code, symbol and latest price. Also a calculator with an input for a value, a currency selector and a button to get the value in BTC.
 
-##### EXTRAS
-✅ WebSockets
-✅ Vuetify
-✅ Responsive design
-🕒 Add test cases to components - In progress
+###### You must use this (https://blockchain.info/ticker ) API to get the exchanges and convert the amount to BTC (back and forth).
+
+✅ Candlesticks graphic view
+
+###### The Candlesticks graphic should have an OHLCV chart (we recommend trading-vue-js)
+
+
+#### TECHNOLOGIES USED
+
+Vue.js | Vuex | Vuetify | WebSockets | Axios | Router
+
+
+#### OPTIONAL
+###### ✅ WebSockets: If you are able to set up and (in any view) show real time information from a websocket of any source, it will be highly considered in the overall review.
+
+##### EXTRAS POINTS
+###### ✅ Vuetify
+###### ✅ Responsive design
+###### 🕒 Add test cases to components - In progress
 
 ### Project setup
 ```
@@ -26,3 +42,9 @@ npm run serve
 ```
 npm run build
 ```
+
+### Planned features since first PR
+
+###### 🕒 BTC input change 2 to 5 decimals
+###### 🕒 Cryto real-time cards quantity picker.
+###### 🕒 Candlesticks graphic data extraction from real time websocket
