@@ -46,8 +46,8 @@ export default {
   data() {
     return {
       countrySelect: "",
-      bitcoin: 1,
-      num: 1,
+      bitcoin: 0,
+      num: 0,
       countries: [],
       currencies: {},
     };
@@ -72,10 +72,6 @@ export default {
         this.num = 0;
         this.bitcoin = 0;
       }
-    },
-    iconDrop: () => {
-      console.log('holis')
-     
     }
   },
   created() {
