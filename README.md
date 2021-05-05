@@ -33,6 +33,13 @@ For this challenge the developer should be able to write proper VueJS component(
 - keep the component and vuejs store updated realtime to reflect proper balance (even when a transaction receiving or sending is made)
 - Construct and sign a transaction (no need to send to blockchain) but have the hexadecimal raw result is mandatory
 
+Useful links:
+
+https://infura.io/
+https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=es
+https://developers.rsk.co/rsk/public-nodes/
+
+
 ### Submission
 
 Fork this repository and send us a pull request with your code.
