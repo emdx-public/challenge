@@ -35,9 +35,9 @@ For this challenge the developer should be able to write proper VueJS component(
 
 Useful links:
 
-https://infura.io/
-https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=es
-https://developers.rsk.co/rsk/public-nodes/
+- https://infura.io/
+- https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=es
+- https://developers.rsk.co/rsk/public-nodes/
 
 
 ### Submission
