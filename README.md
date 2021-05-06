@@ -3,13 +3,16 @@
 ### Summary
 The goal of this test is to make you code a small VueJS app.
 
-The app will have three views, BTC to fiat currency conversor, a small dashboard with a graphic view and Metamask form interaction. Each view can be acceded via a link in a top navbar at the top of the app. The top navbar should read "Bitcoin converter", "Candlesticks graphic" and Wallet integration.
+The app will have three views, real time updated orderbook, a small dashboard with a graphic view and Metamask form interaction. Each view can be acceded via a link in a top navbar at the top of the app. The top navbar should read "RT Orderbook", "Candlesticks graphic" and "Wallet integration".
 
-#### 1. BTC Converter view
-The BTC view will contain a table with all the available exchanges with code, symbol and latest price. Also a calculator with an input for a value, a currency selector and a button to get the value in BTC.
+#### 1. Realtime orderbook
 
-You must use this (https://blockchain.info/ticker ) API to get the exchanges and convert the amount to BTC (back and forth).
+For the first tab, the dev will have to create an orderbook, as seen on any exchange, with price level, colored amounts, side, real time update, etc.
+For this you can check the FTX WS/API (https://docs.ftx.com/) to fetch proper data, any pair will be ok, suggested btc/usd.
 
+The order book will need to update real time and reflect proper updates by flashing the side / level that changed (with flash we say background color momentarily changed)
+
+Finally, the price on each level should be clickeable, and the click event will have to fetch said price and show it on a alert or any div/tag/input on the same page.
 
 #### 2. Candlesticks graphic view
 
