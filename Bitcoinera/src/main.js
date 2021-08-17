@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import Vuetify from 'vuetify/lib';
+import Vuetify from 'vuetify/lib'
 import '@/assets/css/tailwind.css'
 import { VueSpinners } from '@saeris/vue-spinners'
 import Chartkick from 'vue-chartkick'
@@ -18,8 +18,8 @@ Vue.use(Chartkick.use(Chart))
 Vue.filter('dollar', dollarFilter)
 Vue.filter('percent', percentFilter)
 
-Vue.config.silent = true;
-Vue.prototype.$vuetify = { rtl: false };
+Vue.config.silent = true
+Vue.prototype.$vuetify = { rtl: false }
 Vue.config.productionTip = false
 
 new Vue({

@@ -1,5 +1,7 @@
 <template>
-    <v-container style="display: flex; flex-direction: column; align-items: center;">
+    <v-container
+        style="display: flex; flex-direction: column; align-items: center;"
+    >
         <vue-metamask userMessage="msg" @onComplete="onComplete">
         </vue-metamask>
         <v-container style="display: flex;">
@@ -16,7 +18,10 @@
                 ></v-text-field>
             </v-container>
             <v-container>
-                <v-text-field v-model="receiver" label="To Address"></v-text-field>
+                <v-text-field
+                    v-model="receiver"
+                    label="To Address"
+                ></v-text-field>
                 <v-text-field v-model="amount" label="Amount"></v-text-field>
             </v-container>
         </v-container>

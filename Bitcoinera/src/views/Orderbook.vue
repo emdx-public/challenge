@@ -1,5 +1,7 @@
 <template>
-    <v-container style="display: flex; flex-direction: column; align-items: center;">
+    <v-container
+        style="display: flex; flex-direction: column; align-items: center;"
+    >
         <h1 style="margin-bottom:3rem;">OrderBook</h1>
         <!-- <v-container style="width: 80%" class="d-flex w-md-100">
             <v-btn color="primary" elevation="3" raised rounded text v-on:click="subscribeMessage()">Send Subscribe Message</v-btn>
