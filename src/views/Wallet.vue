@@ -1,29 +1,35 @@
 <template>
-    <div>
+    <v-container style="display: flex; flex-direction: column; align-items: center;">
         <vue-metamask userMessage="msg" @onComplete="onComplete">
         </vue-metamask>
-        <div>
-            <textarea
-                v-model="address"
-                label="Your Wallet Address"
-                readonly
-            ></textarea>
-            <textarea v-model="balance" label="Balance" readonly></textarea>
-        </div>
-        <div>
-            <textarea v-model="receiver" label="To Address"></textarea>
-            <textarea v-model="amount" label="Amount"></textarea>
-            <v-btn
-                color="primary"
-                elevation="3"
-                raised
-                rounded
-                text
-                v-on:click="signData()"
-                >Sign Data</v-btn
-            >
-        </div>
-    </div>
+        <v-container style="display: flex;">
+            <v-container>
+                <v-text-field
+                    v-model="address"
+                    label="Your Wallet Address"
+                    readonly
+                ></v-text-field>
+                <v-text-field
+                    v-model="balance"
+                    label="Balance"
+                    readonly
+                ></v-text-field>
+            </v-container>
+            <v-container>
+                <v-text-field v-model="receiver" label="To Address"></v-text-field>
+                <v-text-field v-model="amount" label="Amount"></v-text-field>
+            </v-container>
+        </v-container>
+        <v-btn
+            color="primary"
+            elevation="3"
+            raised
+            rounded
+            text
+            v-on:click="signData()"
+            >Sign Data</v-btn
+        >
+    </v-container>
 </template>
 
 <script>

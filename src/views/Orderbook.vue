@@ -1,18 +1,18 @@
 <template>
-    <div style="display:flex; flex-direction:column; align-items:center;">
+    <v-container style="display: flex; flex-direction: column; align-items: center;">
         <h1 style="margin-bottom:3rem;">OrderBook</h1>
-        <!-- <div style="width: 80%" class="d-flex w-md-100">
+        <!-- <v-container style="width: 80%" class="d-flex w-md-100">
             <v-btn color="primary" elevation="3" raised rounded text v-on:click="subscribeMessage()">Send Subscribe Message</v-btn>
             <v-btn color="primary" elevation="3" raised rounded text v-on:click="unSubscribeMessage()">Send UnSubscribe Message</v-btn>
-        </div> -->
-        <div style="width: 100%" class="d-flex w-md-100">
-            <table
+        </v-container> -->
+        <v-container style="width: 100%" class="d-flex w-md-100">
+            <v-simple-table
                 fixed-header
                 height="400px"
                 style="width: 100%; margin-right: 10px; min-width: 250px"
                 dark
             >
-                <template>
+                <template v-slot:default>
                     <thead>
                         <tr>
                             <th class="text-left">
@@ -42,14 +42,14 @@
                         </tr>
                     </tbody>
                 </template>
-            </table>
-            <table
+            </v-simple-table>
+            <v-simple-table
                 fixed-header
                 height="400px"
-                style="width: 100%; margin-left: 10px; min-width: 250px;"
+                style="width: 100%; min-width: 250px; margin-top: 1rem;"
                 dark
             >
-                <template>
+                <template v-slot:default>
                     <thead>
                         <tr>
                             <th class="text-left">
@@ -79,9 +79,9 @@
                         </tr>
                     </tbody>
                 </template>
-            </table>
-        </div>
-    </div>
+            </v-simple-table>
+        </v-container>
+    </v-container>
 </template>
 
 <script>
