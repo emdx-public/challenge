@@ -2,17 +2,15 @@
     <v-container
         style="display: flex; flex-direction: column; align-items: center;"
     >
-        <h1 style="margin-bottom:3rem;">OrderBook</h1>
         <!-- <v-container style="width: 80%" class="d-flex w-md-100">
             <v-btn color="primary" elevation="3" raised rounded text v-on:click="subscribeMessage()">Send Subscribe Message</v-btn>
             <v-btn color="primary" elevation="3" raised rounded text v-on:click="unSubscribeMessage()">Send UnSubscribe Message</v-btn>
         </v-container> -->
-        <v-container style="width: 100%" class="d-flex w-md-100">
+        <v-container style="width: 100%; display: flex; justify-content: space-between;" class="d-flex w-md-100">
             <v-simple-table
                 fixed-header
                 height="400px"
-                style="width: 100%; margin-right: 10px; min-width: 250px"
-                dark
+                style="width: 40%; margin-right: 10px; min-width: 250px"
             >
                 <template v-slot:default>
                     <thead>
@@ -48,8 +46,7 @@
             <v-simple-table
                 fixed-header
                 height="400px"
-                style="width: 100%; min-width: 250px; margin-top: 1rem;"
-                dark
+                style="width: 40%; min-width: 250px;"
             >
                 <template v-slot:default>
                     <thead>
@@ -230,7 +227,7 @@ export default {
 
 <style scoped>
 .updated {
-    background-color: rebeccapurple;
+    background-color: rgb(14, 152, 243);
 }
 td {
     height: 25px !important;

@@ -1,6 +1,6 @@
 <template>
     <main>
-        <px-header :links="links" />
+        <navbar :links="links" />
 
         <router-view
             class="container px-5 sm:px-20 py-20 flex justify-center"
@@ -9,11 +9,11 @@
 </template>
 
 <script>
-import PxHeader from '@/components/PxHeader'
+import Navbar from '@/components/Navbar'
 export default {
     name: 'App',
     components: {
-        PxHeader
+        Navbar
     },
 
     data() {

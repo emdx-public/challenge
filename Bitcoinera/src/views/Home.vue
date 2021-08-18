@@ -5,16 +5,16 @@
             :color="'#68d391'"
             :size="100"
         ></bounce-loader>
-        <px-assets-table :assetsData="assets" v-if="!isLoading" />
+        <orderbook :assetsData="assets" v-if="!isLoading" />
     </div>
 </template>
 
 <script>
 import api from '@/api'
-import PxAssetsTable from '@/components/PxAssetsTable.vue'
+import Orderbook from '@/views/Orderbook.vue'
 export default {
     name: 'Home',
-    components: { PxAssetsTable },
+    components: { Orderbook },
 
     data() {
         return {
