@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Orderbook should show the Orderbook page 1`] = `
+<v-container-stub
+  asks=""
+  bids=""
+  lastupdate="0"
+  style="display: flex; flex-direction: column; align-items: center;"
+  tag="div"
+>
+  <h1
+    style="margin-bottom: 3rem;"
+  >
+    OrderBook
+  </h1>
+   
+  <v-container-stub
+    class="d-flex w-md-100"
+    style="width: 100%;"
+    tag="div"
+  >
+    <v-simple-table-stub
+      dark="true"
+      fixedheader="true"
+      height="400px"
+      style="width: 100%; margin-right: 10px; min-width: 250px;"
+    />
+     
+    <v-simple-table-stub
+      dark="true"
+      fixedheader="true"
+      height="400px"
+      style="width: 100%; min-width: 250px; margin-top: 1rem;"
+    />
+  </v-container-stub>
+</v-container-stub>
+`;
