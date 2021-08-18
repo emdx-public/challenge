@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Candlesticks should show the Candlesticks page 1`] = `
+<v-row-stub
+  ohlcv="1563727680000,10384.09,10397.76,10380.49,10389.86,14.232304,1563727740000,10389.85,10390,10377.01,10388.16,35.418958"
+  tag="div"
+>
+  <v-col-stub
+    cols="12"
+    tag="div"
+  >
+    <trading-vue-stub
+      chartconfig="[object Object]"
+      colorback="#121826"
+      colorcandledw="#e54150"
+      colorcandleup="#23a776"
+      colorcross="#8091a0"
+      colorgrid="#2f3240"
+      colorpanel="#565c68"
+      colorscale="#838383"
+      colortbborder="#8282827d"
+      colortext="#dedddd"
+      colortexthl="#fff"
+      colortitle="#42b883"
+      colorvoldw="#ef535042"
+      colorvolup="#79999e42"
+      colorwickdw="#e5415088"
+      colorwicksm="transparent"
+      colorwickup="#23a77688"
+      data="[object Object]"
+      extensions=""
+      font="11px -apple-system,BlinkMacSystemFont,
+    Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,
+    Fira Sans,Droid Sans,Helvetica Neue,
+    sans-serif"
+      height="421"
+      id="trading-vue-js"
+      legendbuttons=""
+      overlays=""
+      timezone="0"
+      titletxt="TradingVue.js"
+      width="800"
+      xsettings="[object Object]"
+    >
+      [
+  [
+    1563727680000,
+    10384.09,
+    10397.76,
+    10380.49,
+    10389.86,
+    14.232304
+  ],
+  [
+    1563727740000,
+    10389.85,
+    10390,
+    10377.01,
+    10388.16,
+    35.418958
+  ],
+  [
+    1563727800000,
+    10386.03,
+    10388.16,
+    10367.79,
+    10369.58,
+    39.760436
+  ],
+  [
+    1563727860000,
+    10369.58,
+    10376.33,
+    10362.6,
+    10364.54,
+    117.406486
+  ],
+  [
+    1563727920000,
+    10363.82,
+    10364.54,
+    10355.36,
+    10358.01,
+    10.331995
+  ]
+]
+    </trading-vue-stub>
+  </v-col-stub>
+</v-row-stub>
+`;
