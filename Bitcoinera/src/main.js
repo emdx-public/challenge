@@ -3,6 +3,7 @@ import App from './App.vue'
 import Vuetify from 'vuetify/lib'
 import '@/assets/css/tailwind.css'
 import { VueSpinners } from '@saeris/vue-spinners'
+import 'material-design-icons-iconfont/dist/material-design-icons.css'
 import Chartkick from 'vue-chartkick'
 import Chart from 'chart.js'
 

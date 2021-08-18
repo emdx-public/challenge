@@ -6,7 +6,10 @@
             <v-btn color="primary" elevation="3" raised rounded text v-on:click="subscribeMessage()">Send Subscribe Message</v-btn>
             <v-btn color="primary" elevation="3" raised rounded text v-on:click="unSubscribeMessage()">Send UnSubscribe Message</v-btn>
         </v-container> -->
-        <v-container style="width: 100%; display: flex; justify-content: space-between;" class="d-flex w-md-100">
+        <v-container
+            style="width: 100%; display: flex; justify-content: space-between;"
+            class="d-flex w-md-100"
+        >
             <v-simple-table
                 fixed-header
                 height="400px"

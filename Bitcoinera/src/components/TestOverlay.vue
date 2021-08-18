@@ -54,11 +54,15 @@ export default {
         // indicator (let's say EMA),
         // just create a new overlay with the same type:
         // e.g. use_for() { return ['EMA'] }.
-        use_for() { return ['TestOverlay'] },
+        use_for() {
+            return ['TestOverlay']
+        },
 
         // Colors for the legend, should have the
         // same dimention as a data point (excl. timestamp)
-        data_colors() { return [this.color] }
+        data_colors() {
+            return [this.color]
+        }
     },
     // Define internal setting & constants here
     computed: {
@@ -78,13 +82,8 @@ export default {
     },
     data() {
         return {
-            COLORS:
-            [
-                '#5691ce', '#612ff9',
-                '#d50b90', '#ff2316'
-            ]
+            COLORS: ['#5691ce', '#612ff9', '#d50b90', '#ff2316']
         }
     }
-
 }
 </script>
